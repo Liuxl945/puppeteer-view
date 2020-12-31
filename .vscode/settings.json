@@ -1,0 +1,33 @@
+{
+    "editor.fontSize": 16,
+    "editor.tabSize": 4,
+    "[javascript]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "editor.wordWrap": "on",
+    "vetur.format.defaultFormatter.js": "vscode-typescript",
+    "vetur.format.options.tabSize": 4,
+    "vetur.format.defaultFormatterOptions": {
+        "js-beautify-html": {
+            "wrap_attributes": "force-expand-multiline"
+        },
+        "prettyhtml": {
+            "printWidth": 100,
+            "singleQuote": false,
+            "wrapAttributes": false,
+            "sortAttributes": false
+        }
+    },
+    "beautify.config": {
+        "js": {
+            "indent_size": 4,
+            "break_chained_methods": true,
+            "unindent_chained_methods": true,
+            "brace_style": "none,preserve-inline",
+            "space_before_conditional": false
+        }
+    }
+}

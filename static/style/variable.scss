@@ -1,0 +1,23 @@
+$global-color:#ef5b4c;
+$emp-color:#e54046;
+$brand-color:#f6a623;
+$bg-color:#eeeeee;
+$font-color:#888;
+$font-emp-color:#444;
+$base-color:#5C5C5C;
+$border-color:rgb(214, 214, 214);
+$border-light-color:#eeeeee;
+
+$primary: var(--primary-color);
+$body-bg: var(--body-bg);
+$module-bg: var(--module-bg);
+
+
+$mobile-aside-bg: #34393d;
+$mobile-aisde-transition: all 0.35s ease-out;
+
+@mixin text-overflow() {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

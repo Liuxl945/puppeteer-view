@@ -1,0 +1,19 @@
+.container{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	display: flex;
+	min-height: calc(100vh - 160px);
+	.left{
+		flex: 1;
+		overflow: hidden;
+	}
+	.right {
+		width: 280px;
+		position: relative;
+		overflow: hidden;
+	}
+}
+
+.right-container{
+	width: 280px;
+}

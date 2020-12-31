@@ -1,0 +1,14 @@
+@import "~/static/style/variable.scss";
+
+#pagination{
+    padding: 30px 0 30px 0;
+    text-align: center;
+    .el-pager li:not(.disabled).active{
+        background-color: $global-color;
+    }
+    & .btn-next,
+    & .btn-prev,
+    & .el-pager li{
+        min-width: 40px;
+    }
+}
